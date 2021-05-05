@@ -1,0 +1,106 @@
+@import url("./basic.css");
+@import url("./style.css");
+header {
+    background: linear-gradient(rgba(47,94,94,0.65),rgba(37, 117, 117, 0.9)), 
+    url(../img/about-header.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.header-inner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 810px;
+    width: 100%;
+}
+.header-inner a {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 50px;
+    border-radius: 2px;
+    border: 1px solid #6fb048;
+    background-color: #6fb048;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.header-inner a:hover {
+    background: linear-gradient(to top, rgb(39, 247, 177), #344643);
+    border-color: #fff;
+}
+.header-inner h1 {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.heading-section-about,
+.meet-team {
+    margin:0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+#features h2 {
+    font-weight: 600;
+    font-size: 32px;
+    color:  #0f5f5c;
+} 
+#features p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #83a7a5;
+    line-height: 25px;
+    width: 100%;
+    margin:0 auto;
+}
+.heading-section-about p {
+    max-width: 705px;
+}
+.meet-team {
+    background-color:#eef1ec;
+    padding:85px 0;
+}
+.meet-team  p {
+    max-width: 675px;
+}
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    margin:90px 0;
+}
+.team-members div img {
+    max-width: 300px;
+    width: 100%;
+    max-height: 180px;
+    height: 100%;
+}
+.team-members div:nth-of-type(2) {
+    margin: 0 10px;
+}
+.team-members h3 {
+    padding: 10px 0;
+    color:  #0f5f5c;
+    font-weight: 700;
+    font-size: 16px;
+}
+@media only screen and (max-width:768px) {
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+    .team-members div:nth-of-type(2) {
+        margin: 0 
+    }
+
+}

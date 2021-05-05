@@ -1,0 +1,28 @@
+@import url("./basic.css");
+@import url("./style.css");
+header,#pricing {
+    background-color: #eef1ec;
+}
+.contact-wapik{
+    color: #0f5f5d
+}
+.back-color {
+    background-color: #0f5f5d;
+    padding: 5px;
+}
+.contact-phone {
+    color: #bdc7c7;
+}
+.contact-hamburger{
+    color: #0f5f5d;
+}
+.section-bottom {
+    text-align: center;
+    padding: 70px;
+}
+.section-bottom p {
+    font-size: 15px;
+    display: inline-block;
+    max-width: 460px;
+    color: rgb(125, 161, 160);
+}
